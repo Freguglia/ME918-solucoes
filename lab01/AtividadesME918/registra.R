@@ -1,3 +1,5 @@
+source("executa.R")
+
 purrr::walk(seq_along(planos), function(i){
   
   fname <- sprintf("resultados/simulacao%02d.RData", i)
