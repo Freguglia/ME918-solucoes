@@ -1,0 +1,23 @@
+fname: exemplo25
+params:
+  - "n": 10
+    n_replicas: 200
+    lambda: 50
+  - "n": 50
+    n_replicas: 200
+    lambda: 50
+  - "n": 100
+    n_replicas: 200
+    lambda: 50
+  - "n": 10
+    n_replicas: 200
+    lambda: 200
+  - "n": 50
+    n_replicas: 200
+    lambda: 200
+  - "n": 100
+    n_replicas: 200
+    lambda: 200
+sizes:
+  width: 10
+  height: 8

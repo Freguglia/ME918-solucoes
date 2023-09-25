@@ -1,0 +1,24 @@
+---
+title: "Simulações Poisson"
+author: "ME918"
+output: 
+  pdf_document:
+    keep_tex: true
+params:
+  fname: "exemplo25"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(poisson918)
+load(file.path("..", "artifacts", paste0(params$fname, ".RData")))
+grafico <- visualiza(df)
+plot(grafico)
+```
+
+```{r}
+head(iris)
+```
