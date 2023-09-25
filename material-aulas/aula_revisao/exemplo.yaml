@@ -1,0 +1,17 @@
+cursos:
+  estatística:
+    disciplinas:
+      - codigo: ME918
+        nome: Produtos de Dados
+        "pre-requisitos":
+          - ME613
+      - codigo: ME310
+        nome: Probabilidade II
+        "pre-requisitos":
+          - ME210
+          - MA211
+  matemática:
+    disciplinas:
+      - codigo: MA111
+        nome: Calculo I
+        "pre-requisitos": []
