@@ -1,0 +1,5 @@
+nome_funcao_1: respostas
+nome_funcao_2: quadrado_coluna
+arquivo_entrada: diamonds.json
+arquivo_saida: diamonds_sq_carat.RData
+nome_coluna: carat
